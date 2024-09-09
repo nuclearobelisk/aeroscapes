@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "cloth_local/Cloth.blend"
-hash = "abb5e15d71636572e83849c8244e1484d5132403d0d05a433da6d685f821c0f5"
-
-[[files]]
-file = "cloth_local/TUTORIAL.txt"
-hash = "780b1e27507dd946671d6581c2a363758ab49d6596c381d1fa2f5561e6789322"
-
-[[files]]
-file = "cloth_local/Vanilla Cape.dae"
-hash = "055ea139d567c715f18344f063f2450f57e8890c91f3e9852683a4982b8e1fb7"
-
-[[files]]
 file = "config/FluidVoidFading.json5"
 hash = "f7f9f53871eac12fc483d540bf4e1f26c4de1f3c36a9be7202d01853b17ff593"
 
@@ -377,48 +365,12 @@ file = "config/patchouli.json5"
 hash = "f025fe9200c89f808a4459ce10b332a2f763c3d6d9622de61b10278e54161117"
 
 [[files]]
-file = "config/physicsmod/physics_animations_client_config.json"
-hash = "d8a629b25da461374926b02b6649ed90154cb1bb6ab7e5208f519b5bcf29b08b"
-
-[[files]]
-file = "config/physicsmod/physics_blocks_client_config.json"
-hash = "8c1d1cf681fa93f5b2c6e36f0846174e722bde78a4eed2ff952a232d1714c6b0"
-
-[[files]]
-file = "config/physicsmod/physics_client_config.json"
-hash = "24cce97c89540799df2e6da9eae740eef7cf26298302989dea9f598960af6220"
-
-[[files]]
-file = "config/physicsmod/physics_cloth_config.json"
-hash = "4813530f72aa815cee3beab9e773390929194ce9e8ae23250ccadb9bd26af741"
-
-[[files]]
-file = "config/physicsmod/physics_mobs_client_config.json"
-hash = "752775debf65550a6a11ae2cc27c6f5c649cb8ac833a496e5c222d484bc63c14"
-
-[[files]]
-file = "config/physicsmod/physics_server_config.json"
-hash = "1f994a7e15bd6a894c5f7ce2582437da5174f357acb92e7810c65ec5f8f50bf5"
-
-[[files]]
-file = "config/physicsmod/physics_vines_client_config.json"
-hash = "fd2872cab36330f00509c7f4b799ee617c510667e1db1bf6b8e103dc23706a48"
-
-[[files]]
 file = "config/presencefootsteps/updater.json"
 hash = "1e7c61df09c105e1eeca8cf3dcbdfeb976700e9904bcb3983fc7791adb7fad2e"
 
 [[files]]
 file = "config/presencefootsteps/userconfig.json"
 hash = "48ef08ab73853cb275b23d6b3938b6fec3186b8e96ffcb26abeceb0efcbde398"
-
-[[files]]
-file = "config/puddles.json"
-hash = "e3bf13bfae135bec8dd7c2bc476bc260e63fab29feeabe64b5caaf471d973337"
-
-[[files]]
-file = "config/quilt-loader.txt"
-hash = "2ebe30e54c5be2b47b384cf696eeb7442acee5cd61af5c1e55d197c2e19ea2e9"
 
 [[files]]
 file = "config/raisedclouds.json"
@@ -1594,10 +1546,6 @@ hash = "0f881a3d2134b4ace10c5cf3308d83489167f5144c7d5016b17cccb989792adc"
 metafile = true
 
 [[files]]
-file = "mods/physics-mod-pro-v153-fabric-1.19.2.jar"
-hash = "ea1667563a359320998a91547de9ee2f0afa5be0fb34d6292894963e78d7c3d5"
-
-[[files]]
 file = "mods/presence-footsteps.pw.toml"
 hash = "77ea97238abfa28c31cd5398fed624da9c93ab0af44a21c9e77bdbda389bb665"
 metafile = true
@@ -1728,11 +1676,6 @@ hash = "a86ff0df55f4991b2fce88f035ce5b5f83d045c68eceb114dc1e4d57cddff0b3"
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "7867552cea74985c40cd8322a77633a8d3b3bf80d986d24f1b78fa3331bbecee"
-metafile = true
-
-[[files]]
-file = "resourcepacks/stay-true.pw.toml"
-hash = "f461c149788f81fdc37051fc67a8496478b685d96258c98e477f24e696294e78"
 metafile = true
 
 [[files]]
