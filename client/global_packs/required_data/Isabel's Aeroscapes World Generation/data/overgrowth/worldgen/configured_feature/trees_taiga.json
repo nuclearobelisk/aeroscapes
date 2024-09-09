@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.33,
+          "feature": "minecraft:pine_checked"
+        },
+        {
+          "chance": 0.25,
+          "feature": "overgrowth:spruce_bush_checked"
+        },
+        {
+          "chance": 0.025,
+          "feature": "minecraft:mega_spruce_checked"
+        },
+        {
+          "chance": 0.05,
+          "feature": "minecraft:mega_pine_checked"
+        }
+      ],
+      "default": "minecraft:spruce_checked"
+    }
+  }
+  

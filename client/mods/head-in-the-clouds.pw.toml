@@ -1,0 +1,13 @@
+name = "Head in the Clouds"
+filename = "head_in_the_clouds-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Agw7MFEL/versions/uRc1bzLv/head_in_the_clouds-1.0.0.jar"
+hash-format = "sha512"
+hash = "f9bb4276138ec21a1838e4f924bc4d1f6c78c17b75e6c35a5bd3b3a8e7cd0249643c796d4e91118acc18c20a066d5efbf414987cb939eb470e52cde53bc34a87"
+
+[update]
+[update.modrinth]
+mod-id = "Agw7MFEL"
+version = "uRc1bzLv"

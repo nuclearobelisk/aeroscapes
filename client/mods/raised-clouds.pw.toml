@@ -1,0 +1,13 @@
+name = "Raised Clouds"
+filename = "raisedclouds-1.2.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KFhYq9yE/versions/TXgGxa4j/raisedclouds-1.2.0.jar"
+hash-format = "sha512"
+hash = "0e347939e5e466c2e1a147b9e4af7ca7037796241d3d2f2e22bb6ae8a554989780a9fd238735818701738d64c2955cc51e59fe6696c07c1d807346dfc6f445c4"
+
+[update]
+[update.modrinth]
+mod-id = "KFhYq9yE"
+version = "TXgGxa4j"

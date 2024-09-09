@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.5,
+          "feature": "overgrowth:birch_bush"
+        },
+        {
+          "chance": 0.33,
+          "feature": "overgrowth:birch_bees_0002"
+        }
+      ],
+      "default": "minecraft:super_birch_bees_0002"
+    }
+  }
+  

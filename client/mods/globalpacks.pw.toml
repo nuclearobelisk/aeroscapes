@@ -1,0 +1,13 @@
+name = "Global Packs"
+filename = "global_packs-fabric-1.19.2-1.14.5_fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NRLPy2mk/versions/Q67gzc2j/global_packs-fabric-1.19.2-1.14.5_fabric.jar"
+hash-format = "sha512"
+hash = "29346252c2b216b965aaf835bedef892b18854cdaaa1a7a4433c447b311d8ac2b51cd7fa228cefbea67fc145bcf49dd888d68d0d28102e3970fbc584ccbb9ad2"
+
+[update]
+[update.modrinth]
+mod-id = "NRLPy2mk"
+version = "Q67gzc2j"

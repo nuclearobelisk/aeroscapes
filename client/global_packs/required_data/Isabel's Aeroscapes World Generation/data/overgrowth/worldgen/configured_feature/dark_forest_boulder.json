@@ -1,0 +1,161 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 1,
+      "lower_size": 0,
+      "upper_size": 1
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:smooth_basalt"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:deepslate"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:deepslate"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 0,
+      "height_rand_a": 1,
+      "height_rand_b": 0
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 2,
+      "offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 1
+        }
+      },
+      "height": 4
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.6,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:vine",
+            "Properties": {
+              "east": "true",
+              "north": "true",
+              "south": "true",
+              "up": "true",
+              "west": "true"
+            }
+          }
+        },
+        "directions": [
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.75,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:red_mushroom"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:brown_mushroom"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:moss_carpet"
+              }
+            }
+          ]
+        },
+        "directions": [
+          "up"
+        ]
+      },
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:coarse_dirt"
+              }
+            },
+            {
+              "weight": 4,
+              "data": {
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                  "snowy": "false"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

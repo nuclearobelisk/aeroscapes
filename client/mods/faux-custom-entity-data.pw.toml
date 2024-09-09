@@ -1,0 +1,13 @@
+name = "Faux Custom Entity Data"
+filename = "FauxCustomEntityData-fabric-1.19.2-2.0.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/E7ZFR7qk/versions/rTdiTRZH/FauxCustomEntityData-fabric-1.19.2-2.0.2.jar"
+hash-format = "sha512"
+hash = "9aa15ff5b1eed99e3aa57e7587b3429291841ee1f546e4936f50440f500e5998867e9242f3d869739e4117187969cd8085bf470c57ef3037b9c4abead3d9d62d"
+
+[update]
+[update.modrinth]
+mod-id = "E7ZFR7qk"
+version = "rTdiTRZH"

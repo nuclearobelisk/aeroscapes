@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:lake",
+    "config": {
+        "barrier": {
+            "type": "minecraft:noise_provider",
+            "noise": {
+                "amplitudes": [1.0],
+                "firstOctave": 0
+            },
+            "scale": 0.75,
+            "seed": 1337,
+            "states": [ 
+                { "Name": "minecraft:sand" },
+                { "Name": "minecraft:dirt" }
+            ]
+        },
+        "fluid": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+                "Name": "minecraft:water",
+                "Properties": {
+                    "level": "0"
+                }
+            }
+        }
+    }
+}

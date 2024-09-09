@@ -1,0 +1,13 @@
+name = "Wall-Jump TXF"
+filename = "walljump-1.19.2-1.2.4-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oUoetxfR/versions/hFW1DPrd/walljump-1.19.2-1.2.4-fabric.jar"
+hash-format = "sha512"
+hash = "cb52d8ebf7e6e45b2112761118935ed01b65e4d57a977e0c735b2ce537b64d2c5e51281e4f56874448e9b504a61ec342e421a576c16e85a300ac93651bf8336d"
+
+[update]
+[update.modrinth]
+mod-id = "oUoetxfR"
+version = "hFW1DPrd"

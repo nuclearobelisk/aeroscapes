@@ -1,0 +1,13 @@
+name = "Spyglass Improvements"
+filename = "spyglass-improvements-1.5+mc1.19+fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Z6ykjRlM/versions/DLRGIW89/spyglass-improvements-1.5%2Bmc1.19%2Bfabric.jar"
+hash-format = "sha512"
+hash = "e7a8e8e526819b09c90abbd19d80d4fc44a7982749e4c733f2d81ef89e9f1def34a8c965f32fa3d2ae42f7b203c5f7b06eb0745d5695e6d499fc8e6a8e641575"
+
+[update]
+[update.modrinth]
+mod-id = "Z6ykjRlM"
+version = "DLRGIW89"

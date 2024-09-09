@@ -1,0 +1,13 @@
+name = "Custom Spawns [Fabric]"
+filename = "custom-spawns-0.7+1.19.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b9b4c375415b4437718d015e53c0489faca126a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3866287
+project-id = 416243
