@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#minecraft:base_stone_overworld",
+    "#minecraft:cave_vines",
+    "#minecraft:dirt",
+	"minecraft:basalt",
+	"aeroscapes:aerolite",
+	"aeroscapes:gold_aerolite"
+  ]
+}

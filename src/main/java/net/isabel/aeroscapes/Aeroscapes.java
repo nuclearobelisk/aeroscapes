@@ -12,14 +12,12 @@ import org.apache.logging.log4j.Logger;
 public class Aeroscapes implements ModInitializer {
 	public static final Logger LOGGER = LogManager.getLogger();
 	public static final String MOD_ID = "aeroscapes";
-
 	@Override
 	public void onInitialize() {
 		AeroscapesItems.registerItems();
 		AeroscapesBlocks.registerBlocks();
 		AeroscapesSounds.registerSounds();
 		AeroscapesFeatures.registerFeatures();
-
 		LOGGER.info("Aeroscapes Loaded!");
 	}
 }
