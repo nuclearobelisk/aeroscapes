@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "aeroscapes",
+	"version": "${version}",
+	"name": "Aeroscapes Companion",
+	"description": "Companion mod for Isabel's Aeroscapes.",
+	"authors": [
+		"Isabel"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/aeroscapes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.isabel.aeroscapes.Aeroscapes"
+		],
+		"client": [
+			"net.isabel.aeroscapes.client.AeroscapesClient"
+		]
+	},
+	"mixins": [
+		"aeroscapes.mixins.json",
+		{
+			"config": "aeroscapes.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": "=0.18.x",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"lithostitched": ">=1.5.8+beta1"
+	}
+}

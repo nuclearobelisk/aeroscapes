@@ -1,0 +1,28 @@
+{
+    "block.aeroscapes.aerolite": "Aerolite",
+    "block.aeroscapes.gold_aerolite": "Gilded Aerolite",
+
+    "block.aeroscapes.quickslate": "Quickslate",
+    "block.aeroscapes.quickslate_slab": "Quickslate Slab",
+    "block.aeroscapes.quickslate_stairs": "Quickslate Stairs",
+    "block.aeroscapes.quickslate_wall": "Quickslate Wall",
+
+    "block.aeroscapes.polished_quickslate": "Polished Quickslate",
+    "block.aeroscapes.polished_quickslate_slab": "Polished Quickslate Slab",
+    "block.aeroscapes.polished_quickslate_stairs": "Polished Quickslate Stairs",
+    "block.aeroscapes.polished_quickslate_wall": "Polished Quickslate Wall",
+    "block.aeroscapes.chiseled_quickslate": "Chiseled Quickslate",
+
+    "item.aeroscapes.aerolite_twig": "Aerolite Twig",
+    "item.aeroscapes.golden_aerolite_twig": "Golden Aerolite Twig",
+    "item.aeroscapes.aerolite_charm": "Aerolite Charm",
+    "itemgroup.aeroscapes.aeroscapes": "Aeroscapes",
+
+    "subtitles.item.aeroscapes.aerolite_charm.fail": "Aerolite Charm Fizzles",
+    "subtitles.item.aeroscapes.aerolite_charm.success": "Player Teleports",
+
+    "item.aeroscapes.music_disc_yaw.desc": "Elephants - yaw",
+    "item.aeroscapes.music_disc_view.desc": "Elephants - view",
+    "item.aeroscapes.music_disc_yaw": "Music Disc",
+    "item.aeroscapes.music_disc_view": "Music Disc"
+}

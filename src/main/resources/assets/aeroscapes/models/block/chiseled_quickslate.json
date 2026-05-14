@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "aeroscapes:block/chiseled_quickslate_top",
+    "side": "aeroscapes:block/chiseled_quickslate"
+  }
+}

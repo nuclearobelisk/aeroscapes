@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "aeroscapes:aerolite",
+    "aeroscapes:gold_aerolite",
+    "aeroscapes:chiseled_quickslate",
+    "aeroscapes:polished_quickslate",
+    "aeroscapes:polished_quickslate_slab",
+    "aeroscapes:polished_quickslate_stairs",
+    "aeroscapes:polished_quickslate_wall",
+    "aeroscapes:quickslate",
+    "aeroscapes:quickslate_slab",
+    "aeroscapes:quickslate_stairs",
+    "aeroscapes:quickslate_wall"
+  ]
+}

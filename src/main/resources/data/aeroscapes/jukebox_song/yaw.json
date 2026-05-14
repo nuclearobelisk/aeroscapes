@@ -1,0 +1,8 @@
+{
+  "comparator_output": 12,
+  "description": {
+    "translate": "item.aeroscapes.music_disc_yaw.desc"
+  },
+  "length_in_seconds": 207.0,
+  "sound_event": "aeroscapes:music_disc.yaw"
+}

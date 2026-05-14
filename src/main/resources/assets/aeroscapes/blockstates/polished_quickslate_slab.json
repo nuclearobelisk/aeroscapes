@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "aeroscapes:block/polished_quickslate_slab"
+    },
+    "type=double": {
+      "model": "aeroscapes:block/polished_quickslate"
+    },
+    "type=top": {
+      "model": "aeroscapes:block/polished_quickslate_slab_top"
+    }
+  }
+}

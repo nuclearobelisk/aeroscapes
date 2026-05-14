@@ -1,0 +1,38 @@
+{
+  "music_disc.yaw": {
+    "sounds": [
+      {
+        "name": "aeroscapes:records/yaw",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.view": {
+    "sounds": [
+      {
+        "name": "aeroscapes:records/view",
+        "stream": true
+      }
+    ]
+  },
+  "item.aerolite_charm.fail": {
+    "sounds": [
+      {
+        "name": "entity/endereye/dead1",
+        "volume": 1.3
+      },
+      {
+        "name": "entity/endereye/dead2",
+        "volume": 1.3
+      }
+    ],
+    "subtitle": "subtitles.item.aeroscapes.aerolite_charm.fail"
+  },
+  "item.aerolite_charm.success": {
+    "sounds": [
+      "mob/endermen/portal",
+      "mob/endermen/portal2"
+    ],
+    "subtitle": "subtitles.item.aeroscapes.aerolite_charm.success"
+  }
+}

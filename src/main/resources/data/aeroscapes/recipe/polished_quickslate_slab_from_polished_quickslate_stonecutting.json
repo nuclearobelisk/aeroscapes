@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "aeroscapes:polished_quickslate"
+  },
+  "result": {
+    "count": 2,
+    "id": "aeroscapes:polished_quickslate_slab"
+  }
+}

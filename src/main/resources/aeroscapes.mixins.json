@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "net.isabel.aeroscapes.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AeroscapesAeroliteTwigItemEntityFloat",
+		"AeroscapesMineshaftStructureMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

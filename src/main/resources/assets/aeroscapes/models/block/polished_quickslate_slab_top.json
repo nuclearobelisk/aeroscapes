@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "aeroscapes:block/polished_quickslate",
+    "side": "aeroscapes:block/polished_quickslate",
+    "top": "aeroscapes:block/polished_quickslate"
+  }
+}

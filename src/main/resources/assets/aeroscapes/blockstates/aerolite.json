@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "aeroscapes:block/aerolite_0", "weight": 1 },
+      { "model": "aeroscapes:block/aerolite_1", "weight": 1 },
+      { "model": "aeroscapes:block/aerolite_2", "weight": 1 }
+    ]
+  }
+}

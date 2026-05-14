@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "": [
+      { "model": "aeroscapes:block/gold_aerolite_0", "weight": 1 },
+      { "model": "aeroscapes:block/gold_aerolite_1", "weight": 1 },
+      { "model": "aeroscapes:block/gold_aerolite_2", "weight": 1 }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "comparator_output": 6,
+  "description": {
+    "translate": "item.aeroscapes.music_disc_view.desc"
+  },
+  "length_in_seconds": 134.0,
+  "sound_event": "aeroscapes:music_disc.view"
+}

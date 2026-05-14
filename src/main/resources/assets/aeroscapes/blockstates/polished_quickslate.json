@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": [
+      { "model": "aeroscapes:block/polished_quickslate", "weight": 1 }
+    ]
+  }
+}
