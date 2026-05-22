@@ -11,34 +11,34 @@
 					"type": "minecraft:blend_density",
 					"argument": {
 						"type": "minecraft:add",
-						"argument1": -0.185375,
+						"argument1": -0.1865,
 						"argument2": {
 							"type": "minecraft:mul",
 							"argument1": {
 								"type": "minecraft:y_clamped_gradient",
-								"from_y": -64,
-								"to_y": 0,
+								"from_y": -48,
+								"to_y": -32,
 								"from_value": 0,
-								"to_value": 0.75
+								"to_value": 0.7
 							},
 							"argument2": {
 								"type": "minecraft:add",
-								"argument1": 0.225375,
+								"argument1": 0.25,
 								"argument2": {
 									"type": "minecraft:add",
-									"argument1": -18.585,
+									"argument1": -18.6125,
 									"argument2": {
 										"type": "minecraft:mul",
 										"argument1": {
 											"type": "minecraft:y_clamped_gradient",
-											"from_y": 256,
-											"to_y": 400,
+											"from_y": 216,
+											"to_y": 384,
 											"from_value": 1,
-											"to_value": 0
+											"to_value": 0.875
 										},
 										"argument2": {
 											"type": "minecraft:add",
-											"argument1": 18.195,
+											"argument1": 18.15,
 											"argument2": "minecraft:end/base_3d_noise"
 										}
 									}

@@ -20,7 +20,7 @@
 		"size_vertical": 2
 	},
 	"noise_router": {
-		"barrier": 0,
+		"barrier": 0.5,
 		"fluid_level_floodedness": {
 			"type": "minecraft:mul",
 			"argument1": {
