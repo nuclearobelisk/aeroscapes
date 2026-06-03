@@ -21,9 +21,9 @@
       },
       "probability": 0.0075
     },
-    "sky_color": 8103167,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 9414640,
+    "water_color": 9416668,
+    "water_fog_color": 267827
   },
   "features": [
     [
@@ -43,7 +43,7 @@
     [],
     []
   ],
-  "has_precipitation": true,
+  "has_precipitation": false,
   "spawn_costs": {},
   "spawners": {
     "ambient": [],

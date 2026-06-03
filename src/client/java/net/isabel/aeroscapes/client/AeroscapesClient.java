@@ -11,6 +11,7 @@ public class AeroscapesClient implements ClientModInitializer {
 	public void onInitializeClient() {
 		BlockRenderLayerMap.INSTANCE.putBlock(AeroscapesBlocks.AEROLITE, RenderLayer.getCutout());
 		BlockRenderLayerMap.INSTANCE.putBlock(AeroscapesBlocks.GOLD_AEROLITE, RenderLayer.getCutout());
+		BlockRenderLayerMap.INSTANCE.putBlock(AeroscapesBlocks.POINTED_BASALT, RenderLayer.getCutout());
 
 		Aeroscapes.LOGGER.info("Aeroscapes Client Loaded!");
 	}

@@ -1,6 +1,7 @@
 package net.isabel.aeroscapes.mixin;
 
 import net.isabel.aeroscapes.registry.AeroscapesItems;
+import net.isabel.aeroscapes.registry.AeroscapesTags;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.item.ItemStack;
@@ -17,7 +18,7 @@ public abstract class AeroscapesAeroliteTwigItemEntityFloat {
     @Inject(method = "tick()V", at = @At("HEAD"))
     private void SetAeroliteTwigFloat(CallbackInfo ci) {
         ItemStack s = this.getStack();
-        if(s.isOf(AeroscapesItems.AEROLITE_TWIG) || s.isOf(AeroscapesItems.GOLDEN_AEROLITE_TWIG)) {
+        if(s.isIn(AeroscapesTags.Items.IS_FLOATING_ITEM)) {
             ((Entity)(Object)this).setNoGravity(true);
         }
     }

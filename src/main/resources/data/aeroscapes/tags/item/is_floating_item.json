@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "aeroscapes:aerolite_twig",
+    "aeroscapes:golden_aerolite_twig",
+    "aeroscapes:crushed_aerolite",
+    "aeroscapes:aerolite_charm",
+    "minecraft:phantom_membrane"
+  ]
+}

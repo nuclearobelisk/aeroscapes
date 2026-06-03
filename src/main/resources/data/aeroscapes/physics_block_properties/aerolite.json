@@ -1,0 +1,6 @@
+{
+  "selector": "#aeroscapes:is_aerolite",
+  "properties": {
+    "sable:mass": 0.25
+  }
+}

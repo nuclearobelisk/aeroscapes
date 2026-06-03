@@ -1,0 +1,13 @@
+{
+  "selector": "#aeroscapes:is_quickslate",
+  "properties": {
+    "sable:restitution": 0.5,
+    "sable:friction": 0.1,
+    "sable:mass": 0.5
+  },
+  "overrides": {
+    "type=double": {
+      "sable:mass": 1.0
+    }
+  }
+}

@@ -2,8 +2,8 @@
 	"schemaVersion": 1,
 	"id": "aeroscapes",
 	"version": "${version}",
-	"name": "Aeroscapes Companion",
-	"description": "Companion mod for Isabel's Aeroscapes.",
+	"name": "Aero Islands",
+	"description": "Floating island world generation and unique features from Isabel's Aeroscapes.",
 	"authors": [
 		"Isabel"
 	],

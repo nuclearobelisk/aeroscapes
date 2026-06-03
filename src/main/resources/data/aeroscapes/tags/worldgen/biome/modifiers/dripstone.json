@@ -6,7 +6,6 @@
 		"#aeroscapes:modifiers/presets/swamp",
 		"#aeroscapes:modifiers/presets/lush",
 		"#aeroscapes:modifiers/presets/savanna",
-		"#aeroscapes:modifiers/presets/hot",
-		"#aeroscapes:modifiers/presets/void"
+		"#aeroscapes:modifiers/presets/hot"
 	]
 }

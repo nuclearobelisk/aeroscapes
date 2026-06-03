@@ -1,11 +1,14 @@
 {
     "block.aeroscapes.aerolite": "Aerolite",
     "block.aeroscapes.gold_aerolite": "Gilded Aerolite",
+    "item.aeroscapes.crushed_aerolite": "Crushed Aerolite",
 
     "block.aeroscapes.quickslate": "Quickslate",
     "block.aeroscapes.quickslate_slab": "Quickslate Slab",
     "block.aeroscapes.quickslate_stairs": "Quickslate Stairs",
     "block.aeroscapes.quickslate_wall": "Quickslate Wall",
+
+    "block.aeroscapes.pointed_basalt": "Pointed Basalt",
 
     "block.aeroscapes.polished_quickslate": "Polished Quickslate",
     "block.aeroscapes.polished_quickslate_slab": "Polished Quickslate Slab",

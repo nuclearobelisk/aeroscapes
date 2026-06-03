@@ -16,8 +16,8 @@
 							"type": "minecraft:mul",
 							"argument1": {
 								"type": "minecraft:y_clamped_gradient",
-								"from_y": -48,
-								"to_y": -32,
+								"from_y": -64,
+								"to_y": 32,
 								"from_value": 0,
 								"to_value": 0.7
 							},
@@ -38,7 +38,7 @@
 										},
 										"argument2": {
 											"type": "minecraft:add",
-											"argument1": 18.15,
+											"argument1": 18.165,
 											"argument2": "minecraft:end/base_3d_noise"
 										}
 									}
@@ -68,9 +68,9 @@
 					"argument2": {
 						"type": "minecraft:y_clamped_gradient",
 						"from_value": 0,
-						"from_y": 32,
-						"to_value": 3.25,
-						"to_y": 256
+						"from_y": -64,
+						"to_value": 2.25,
+						"to_y": 192
 					}
 				},
 				"when_out_of_range": 0

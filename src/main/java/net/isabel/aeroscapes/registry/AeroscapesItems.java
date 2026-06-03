@@ -37,10 +37,14 @@ public class AeroscapesItems {
     public static final Item AEROLITE_CHARM = registerItem("aerolite_charm",
             new AeroliteCharmItem(new Item.Settings().maxDamage(350)));
 
+    public static final Item CRUSHED_AEROLITE = registerItem("crushed_aerolite",
+            new Item(new Item.Settings()));
+
     public static void registerItems() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(AEROLITE_TWIG);
             fabricItemGroupEntries.add(GOLDEN_AEROLITE_TWIG);
+            fabricItemGroupEntries.add(CRUSHED_AEROLITE);
         });
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(fabricItemGroupEntries -> {

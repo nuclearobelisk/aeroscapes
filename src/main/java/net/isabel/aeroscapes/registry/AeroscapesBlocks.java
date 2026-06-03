@@ -71,6 +71,11 @@ public class AeroscapesBlocks {
                     .suffocates((state, world, pos) -> false)
                     .blockVision((state, world, pos) -> false)));
 
+    public static final Block POINTED_BASALT = registerBlock("pointed_basalt",
+            new PointedDripstoneBlock(AbstractBlock.Settings.copy(Blocks.POINTED_DRIPSTONE)
+                    .mapColor(MapColor.BLACK)
+                    .sounds(BlockSoundGroup.BASALT)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, Identifier.of(Aeroscapes.MOD_ID, name), block);
@@ -96,6 +101,7 @@ public class AeroscapesBlocks {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(AEROLITE);
             fabricItemGroupEntries.add(GOLD_AEROLITE);
+            fabricItemGroupEntries.add(POINTED_BASALT);
         });
 
         Aeroscapes.LOGGER.info("Registering Aeroscapes Blocks...");

@@ -36,7 +36,7 @@ extends Item {
         user.getItemCooldownManager().set(this, 20);
         Integer newY = getTeleportPos(world, user.getBlockX(), user.getBlockY(), user.getBlockZ());
 
-        if(newY != null) {
+        if(!world.getDimension().hasCeiling() && newY != null) {
             Vec3d pos = new Vec3d(user.getX(), newY, user.getZ());
             int tpDistance = (int)Math.floor((double)newY - user.getY());
 
@@ -62,8 +62,8 @@ extends Item {
 
             double tpDistanceEffectMultiplier = 0.01 * tpDistance;
             if(user.getRandom().nextDouble() < tpDistanceEffectMultiplier) {
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, Math.min(200, Math.max((int) (tpDistanceEffectMultiplier * 200), 100)), 0));
-                user.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, Math.min(400, Math.max((int) (tpDistanceEffectMultiplier * 200), 600)), 0));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, Math.min(200, Math.max((int) (tpDistanceEffectMultiplier * 200), 100)), 0, false, false, true));
+                user.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, Math.min(400, Math.max((int) (tpDistanceEffectMultiplier * 200), 600)), 0, false, false, true));
             }
 
             for (int i = 0; i < 32; ++i) {
