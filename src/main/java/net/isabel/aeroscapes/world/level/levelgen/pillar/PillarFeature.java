@@ -64,7 +64,7 @@ public class PillarFeature extends Feature<PillarFeatureConfig> {
 
                         double pillarNoise = (noise.sample(mutableBlockPos.getX() * frequency, mutableBlockPos.getY() * frequency, mutableBlockPos.getZ() * frequency) + 1) * 0.5; // 0-1 range
                         double localRadius = MathHelper.clampedLerp(radius1 * minRadiusScale, radius1, pillarNoise);
-                        double taperedRadius = localRadius * (worldY > maxY - height ? 1.0 : ((worldY - (maxY - height - 16) / ((maxY - height) - (maxY - height - 16)))));
+                        double taperedRadius = localRadius * (worldY > maxY - height ? 1.0 : ((worldY - (double) (maxY - height - 16) / ((maxY - height) - (maxY - height - 16)))));
 
                         if (taperedRadius > 1.0 && tester.getDistanceTester().withinDistance(origin.withY(worldY), mutableBlockPos, taperedRadius)) {
                             cache.add(mutableBlockPos.asLong());
